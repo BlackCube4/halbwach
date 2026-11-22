@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Halbwach</string>
+    <string name="subtitle">Display off, dashboard keeps running. Wake it with a double tap or from Home Assistant.</string>
+    <string name="status">Status</string>
+    <string name="service">Panel service</string>
+    <string name="position">Position</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="starting">Starting …</string>
+    <string name="stopping">Stopping …</string>
+    <string name="grant_shizuku">Grant Shizuku permission</string>
+    <string name="settings">Settings</string>
+    <string name="idle_title">Display off after</string>
+    <string name="idle_hint">Seconds without touch (0 = never)</string>
+    <string name="autostart_title">Start automatically</string>
+    <string name="autostart_hint">as soon as Shizuku runs, e.g. after a reboot</string>
+    <string name="pin_title">Pin Home Assistant</string>
+    <string name="pin_hint">open and pin it when the service starts, e.g. after a reboot</string>
+    <string name="wall_title">Only in the wall mount</string>
+    <string name="wall_hint">active while the tablet hangs straight and still; taken off, it is a normal tablet</string>
+    <string name="tolerance_title">Tolerance</string>
+    <string name="tolerance_hint">Degrees of deviation from vertical and straight</string>
+    <string name="settle_title">Settle time</string>
+    <string name="settle_hint">Seconds still on the wall before it becomes active</string>
+    <string name="token_title">Token for Home Assistant</string>
+    <string name="token_hint">optional, letters and digits only. Applies after restarting the service.</string>
+    <string name="token_empty">no token</string>
+    <string name="camera">Camera</string>
+    <string name="camera_hint">Snapshot and live stream for Home Assistant. The camera only runs while someone is watching; Android then shows the green dot. Always set a token when the camera is on.</string>
+    <string name="camera_off">Off</string>
+    <string name="camera_front">Front</string>
+    <string name="camera_back">Back</string>
+    <string name="ha_hint">Addresses for rest_command and the MJPEG camera. Tap to copy.</string>
+    <string name="url_on">Display on</string>
+    <string name="url_off">Display off</string>
+    <string name="url_status">Status</string>
+    <string name="url_jpg">Camera snapshot</string>
+    <string name="url_mjpg">Camera stream</string>
+    <string name="log">Log</string>
+    <string name="show">show</string>
+    <string name="hide">hide</string>
+    <string name="shizuku_not_running">not running – start it in the Shizuku app</string>
+    <string name="shizuku_no_permission">permission missing</string>
+    <string name="shizuku_ready">ready</string>
+    <string name="running">running</string>
+    <string name="stopped">stopped</string>
+    <string name="wall_mode_off">wall mode off</string>
+    <string name="wall_on">on the wall, active</string>
+    <string name="wall_not" formatted="true">not on the wall (tilt %1$.0f°, skew %2$.0f°)</string>
+    <string name="log_empty">(empty)</string>
+    <string name="restart_hint">Applies after restarting the service (stop, start)</string>
+    <string name="copied">Copied</string>
+</resources>

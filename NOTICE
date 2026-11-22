@@ -1,0 +1,10 @@
+Halbwach
+Copyright 2026 BlackCube4
+
+This project contains code based on scrcpy:
+  scrcpy, Copyright (C) 2018 Genymobile, Copyright (C) 2018-2026 Romain Vimont
+  Apache License 2.0, https://github.com/Genymobile/scrcpy
+  (display power control in Main.java, ShellContext.java, Camera.java, IContentProvider stub)
+
+The app uses the Shizuku API (downloaded from Maven Central at build time):
+  Shizuku, Copyright RikkaApps, Apache License 2.0, https://github.com/RikkaApps/Shizuku-API

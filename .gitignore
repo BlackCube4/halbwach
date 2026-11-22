@@ -1,0 +1,9 @@
+# Build output
+build/
+
+# Signing key: never commit, keep a backup elsewhere (see README)
+*.jks
+*.keystore
+
+# Downloaded by app/build.sh from Maven Central
+app/libs/

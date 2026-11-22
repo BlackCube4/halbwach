@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Halbwach</string>
+    <string name="subtitle">Display aus, Dashboard läuft weiter. Aufwecken per Doppeltippen oder aus Home Assistant.</string>
+    <string name="status">Status</string>
+    <string name="service">Panel-Dienst</string>
+    <string name="position">Lage</string>
+    <string name="start">Starten</string>
+    <string name="stop">Stoppen</string>
+    <string name="starting">Wird gestartet …</string>
+    <string name="stopping">Wird gestoppt …</string>
+    <string name="grant_shizuku">Shizuku-Freigabe erteilen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="idle_title">Display aus nach</string>
+    <string name="idle_hint">Sekunden ohne Berührung (0 = nie)</string>
+    <string name="autostart_title">Automatisch starten</string>
+    <string name="autostart_hint">sobald Shizuku läuft, z. B. nach einem Neustart</string>
+    <string name="pin_title">Home Assistant anpinnen</string>
+    <string name="pin_hint">beim Start des Dienstes öffnen und fixieren, z. B. nach einem Neustart</string>
+    <string name="wall_title">Nur an der Wandhalterung</string>
+    <string name="wall_hint">aktiv, wenn das Tablet gerade und ruhig hängt; abgenommen ist es ein normales Tablet</string>
+    <string name="tolerance_title">Toleranz</string>
+    <string name="tolerance_hint">Grad Abweichung von senkrecht und gerade</string>
+    <string name="settle_title">Wartezeit</string>
+    <string name="settle_hint">Sekunden ruhig an der Wand, bis es aktiv wird</string>
+    <string name="token_title">Token für Home Assistant</string>
+    <string name="token_hint">optional, nur Buchstaben und Ziffern. Gilt nach einem Neustart des Dienstes.</string>
+    <string name="token_empty">kein Token</string>
+    <string name="camera">Kamera</string>
+    <string name="camera_hint">Bild und Live-Stream für Home Assistant. Die Kamera läuft nur, solange jemand zuschaut; Android zeigt dann den grünen Punkt. Mit Kamera unbedingt ein Token setzen.</string>
+    <string name="camera_off">Aus</string>
+    <string name="camera_front">Vorne</string>
+    <string name="camera_back">Hinten</string>
+    <string name="ha_hint">Adressen für rest_command und die MJPEG-Kamera. Antippen zum Kopieren.</string>
+    <string name="url_on">Display an</string>
+    <string name="url_off">Display aus</string>
+    <string name="url_status">Status</string>
+    <string name="url_jpg">Kamera-Bild</string>
+    <string name="url_mjpg">Kamera-Stream</string>
+    <string name="log">Protokoll</string>
+    <string name="show">anzeigen</string>
+    <string name="hide">ausblenden</string>
+    <string name="shizuku_not_running">läuft nicht – in der Shizuku-App starten</string>
+    <string name="shizuku_no_permission">Freigabe fehlt</string>
+    <string name="shizuku_ready">bereit</string>
+    <string name="running">läuft</string>
+    <string name="stopped">gestoppt</string>
+    <string name="wall_mode_off">Wand-Modus aus</string>
+    <string name="wall_on">an der Wand, aktiv</string>
+    <string name="wall_not" formatted="true">nicht an der Wand (Neigung %1$.0f°, schief %2$.0f°)</string>
+    <string name="log_empty">(noch leer)</string>
+    <string name="restart_hint">Gilt nach einem Neustart des Dienstes (Stoppen, Starten)</string>
+    <string name="copied">Kopiert</string>
+</resources>
